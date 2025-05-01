@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import tripPlannerImg from '../assets/trip_planner.png';
-import chatbotImg from '../assets/chatbot.png';
-import portfolioImg from '../assets/portfolio.png';
+import tripPlannerImg from '../assets/tripPlannerImg.png';
+import chatbotImg from '../assets/chatbotImg.jpg';
+import portfolioImg from '../assets/portfolioImg.png';
 
 const projects = [
   {

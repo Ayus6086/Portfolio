@@ -1,24 +1,29 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import Full_Stack_Developer from '../assets/Full_Stack_Developer.png';
+import core_java from '../assets/core_java.png';
+import python_ml from '../assets/python_ml.png';
 const certificates = [
   {
     title: 'Full Stack Web Development',
     issuer: 'Linkedin',
     date: '2023',
     image: 'https://drive.google.com/file/d/1NWWYLEbkOlXyxvIYc5MbRrb6Q01_mi-W/view',
+    image2: Full_Stack_Developer,
   },
   {
     title: 'Core Java Programming',
     issuer: 'Cipherschools',
     date: '2024',
     image: 'https://drive.google.com/file/d/1Jz_PQnzUFlSOiEr2wL9UWxOiKdkvaLey/view',
+    image2: core_java,
   },
   {
     title: 'Python, Data Science Machine Learning Integrated',
     issuer: 'Cipherschools',
     date: '2024',
     image: 'https://www.cipherschools.com/certificate/preview?id=67a6f9dcb6e0846f5a505f88',
+    image2: python_ml,
   },
 ];
 
@@ -48,7 +53,7 @@ const Certificates = () => {
               className="bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-shadow flex flex-col"
             >
               <img
-                src={portfolioImg.png}
+                src={chatbot}
                 alt={certificate.title}
                 className="w-full h-40 object-cover object-top"
                 style={{ borderBottom: '1px solid #4B5563' }}
@@ -59,6 +64,14 @@ const Certificates = () => {
                   <span>{certificate.issuer}</span>
                   <span>{certificate.date}</span>
                 </div>
+                <a
+                  href={certificate.image}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded transition-colors text-center"
+                >
+                  View Certificate
+                </a>
               </div>
             </motion.div>
           ))}
