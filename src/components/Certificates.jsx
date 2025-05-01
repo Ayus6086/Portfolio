@@ -45,23 +45,17 @@ const Certificates = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="relative bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-shadow h-64 flex items-end"
-              style={{
-                backgroundImage: `url(${certificate.image})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
+              className="bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-shadow flex flex-col"
             >
-              {/* Visually hidden image for accessibility */}
               <img
-                src={certificate.image}
+                src={portfolioImg.png}
                 alt={certificate.title}
-                className="w-0 h-0 opacity-0"
-                aria-hidden="true"
+                className="w-full h-40 object-cover object-top"
+                style={{ borderBottom: '1px solid #4B5563' }}
               />
-              <div className="relative z-10 p-6 w-full bg-gray-900 bg-opacity-70 rounded-b-lg">
+              <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-xl font-semibold mb-2">{certificate.title}</h3>
-                <div className="flex justify-between text-gray-400">
+                <div className="flex justify-between text-gray-400 mb-2">
                   <span>{certificate.issuer}</span>
                   <span>{certificate.date}</span>
                 </div>
