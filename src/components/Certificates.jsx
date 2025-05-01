@@ -53,7 +53,7 @@ const Certificates = () => {
               className="bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-shadow flex flex-col"
             >
               <img
-                src={chatbot}
+                src={certificate.image2}
                 alt={certificate.title}
                 className="w-full h-40 object-cover object-top"
                 style={{ borderBottom: '1px solid #4B5563' }}
