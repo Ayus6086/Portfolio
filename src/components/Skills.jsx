@@ -6,8 +6,10 @@ const skills = [
   { name: 'HTML/CSS', level: 85 },
   { name: 'Data Structures and Algorithms', level: 90 },
   { name: 'Python', level: 80 },
+  { name: 'JavaScript', level: 80 },
   { name: 'MongoDB', level: 75 },
   { name: 'Node.js', level: 75 },
+  { name: 'React', level: 70 },
 ];
 
 const Skills = () => {
