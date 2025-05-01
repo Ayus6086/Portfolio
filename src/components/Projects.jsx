@@ -1,24 +1,27 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import tripPlannerImg from '../assets/trip_planner.png';
+import chatbotImg from '../assets/chatbot.png';
+import portfolioImg from '../assets/portfolio.png';
 
 const projects = [
   {
     title: 'AI Trip Planner',
     description: 'An AI-powered travel planner offering smart, personalized trip suggestions with a sleek, responsive UI',
     technologies: ['HTML', 'CSS', 'React', 'JavaScript'],
-    image: 'https://via.placeholder.com/400x300',
+    image: tripPlannerImg,
   },
   {
     title: 'AI Chatbot',
     description: 'An AI chatbot enhancing user engagement by 40% through optimized multi-turn conversations and an intuitive UI',
     technologies: ['Python', 'Gemini API', 'NLP'],
-    image: 'https://via.placeholder.com/400x300',
+    image: chatbotImg,
   },
   {
     title: 'Portfolio Website',
     description: 'A responsive portfolio website with smooth animations',
     technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
-    image: 'https://via.placeholder.com/400x300',
+    image: portfolioImg,
   },
 ];
 
@@ -45,17 +48,18 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-gray-700 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
+              className="bg-gray-700 rounded-lg overflow-hidden hover:shadow-lg transition-shadow flex flex-col"
             >
               <img
                 src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
+                alt={project.title + ' screenshot'}
+                className="w-full h-48 object-cover object-top"
+                style={{ borderBottom: '1px solid #4B5563' }}
               />
-              <div className="p-6">
+              <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-300 mb-4">{project.description}</p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mt-auto">
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}

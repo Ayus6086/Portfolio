@@ -6,7 +6,7 @@ const certificates = [
     title: 'Full Stack Web Development',
     issuer: 'Linkedin',
     date: '2023',
-    image: 'https://via.placeholder.com/300x200',
+    image: 'https://drive.google.com/file/d/1NWWYLEbkOlXyxvIYc5MbRrb6Q01_mi-W/view',
   },
   {
     title: 'Core Java Programming',
@@ -45,14 +45,21 @@ const Certificates = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
+              className="relative bg-gray-800 rounded-lg overflow-hidden hover:shadow-lg transition-shadow h-64 flex items-end"
+              style={{
+                backgroundImage: `url(${certificate.image})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
             >
+              {/* Visually hidden image for accessibility */}
               <img
                 src={certificate.image}
                 alt={certificate.title}
-                className="w-full h-48 object-cover"
+                className="w-0 h-0 opacity-0"
+                aria-hidden="true"
               />
-              <div className="p-6">
+              <div className="relative z-10 p-6 w-full bg-gray-900 bg-opacity-70 rounded-b-lg">
                 <h3 className="text-xl font-semibold mb-2">{certificate.title}</h3>
                 <div className="flex justify-between text-gray-400">
                   <span>{certificate.issuer}</span>
