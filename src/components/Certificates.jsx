@@ -12,13 +12,13 @@ const certificates = [
     title: 'Core Java Programming',
     issuer: 'Cipherschools',
     date: '2024',
-    image: 'https://via.placeholder.com/300x200',
+    image: 'https://drive.google.com/file/d/1Jz_PQnzUFlSOiEr2wL9UWxOiKdkvaLey/view',
   },
   {
     title: 'Python, Data Science Machine Learning Integrated',
     issuer: 'Cipherschools',
     date: '2024',
-    image: 'https://via.placeholder.com/300x200',
+    image: 'https://www.cipherschools.com/certificate/preview?id=67a6f9dcb6e0846f5a505f88',
   },
 ];
 

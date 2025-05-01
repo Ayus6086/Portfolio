@@ -10,7 +10,7 @@ const projects = [
   },
   {
     title: 'AI Chatbot',
-    description: 'An AI chatbot using Python and Google Gemini API, enhancing user engagement by 40% through optimized multi-turn conversations and an intuitive UI.',
+    description: 'An AI chatbot enhancing user engagement by 40% through optimized multi-turn conversations and an intuitive UI',
     technologies: ['Python', 'Gemini API', 'NLP'],
     image: 'https://via.placeholder.com/400x300',
   },
