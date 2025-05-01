@@ -4,20 +4,20 @@ import { motion } from 'framer-motion';
 const certificates = [
   {
     title: 'Full Stack Web Development',
-    issuer: 'Udemy',
+    issuer: 'Linkedin',
     date: '2023',
     image: 'https://via.placeholder.com/300x200',
   },
   {
-    title: 'React Advanced Concepts',
-    issuer: 'Coursera',
-    date: '2023',
+    title: 'Core Java Programming',
+    issuer: 'Cipherschools',
+    date: '2024',
     image: 'https://via.placeholder.com/300x200',
   },
   {
-    title: 'Node.js Certification',
-    issuer: 'LinkedIn Learning',
-    date: '2022',
+    title: 'Python, Data Science Machine Learning Integrated',
+    issuer: 'Cipherschools',
+    date: '2024',
     image: 'https://via.placeholder.com/300x200',
   },
 ];

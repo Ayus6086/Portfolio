@@ -25,13 +25,15 @@ const About = () => {
           >
             <h3 className="text-2xl font-semibold mb-4">Who am I?</h3>
             <p className="text-gray-300 mb-4">
-              I'm a passionate Full Stack Developer with expertise in building modern web applications.
-              With a strong foundation in both frontend and backend technologies, I create seamless
-              and efficient digital experiences.
+              Hi! I'm a passionate and curious learner who enjoys building practical tech solutions. 
+              Whether it's writing clean code, exploring new tools, or collaborating on cool projects, 
+              I'm always excited to grow and create. Currently focused on sharpening my skills in web development, 
+              machine learning and Data structures and algorithm.
             </p>
             <p className="text-gray-300">
-              My journey in web development started with a curiosity about how things work,
-              and it has evolved into a career where I constantly learn and adapt to new technologies.
+            Outside of coding, I enjoy gaming, going on road trips, and exploring new places. Adventure and creativity drive me—both in life and in code.
+
+            Let’s build something awesome together!
             </p>
           </motion.div>
 
@@ -43,20 +45,20 @@ const About = () => {
             className="grid grid-cols-2 gap-4"
           >
             <div className="bg-gray-700 p-6 rounded-lg">
-              <h4 className="text-xl font-semibold mb-2">Experience</h4>
-              <p className="text-gray-300">3+ Years</p>
-            </div>
-            <div className="bg-gray-700 p-6 rounded-lg">
               <h4 className="text-xl font-semibold mb-2">Projects</h4>
-              <p className="text-gray-300">50+ Completed</p>
+              <p className="text-gray-300">15+ Completed</p>
             </div>
             <div className="bg-gray-700 p-6 rounded-lg">
-              <h4 className="text-xl font-semibold mb-2">Clients</h4>
-              <p className="text-gray-300">30+ Happy</p>
+              <h4 className="text-xl font-semibold mb-2">Problem Solving</h4>
+              <p className="text-gray-300">100+ Challenges Solved</p>
             </div>
             <div className="bg-gray-700 p-6 rounded-lg">
-              <h4 className="text-xl font-semibold mb-2">Awards</h4>
-              <p className="text-gray-300">5+ Won</p>
+              <h4 className="text-xl font-semibold mb-2">Tools Used</h4>
+              <p className="text-gray-300">15+ Tools & Platforms</p>
+            </div>
+            <div className="bg-gray-700 p-6 rounded-lg">
+              <h4 className="text-xl font-semibold mb-2">Certifications</h4>
+              <p className="text-gray-300">10+ Earned</p>
             </div>
           </motion.div>
         </div>

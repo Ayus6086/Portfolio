@@ -3,15 +3,15 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'E-commerce Platform',
-    description: 'A full-featured online shopping platform with payment integration',
-    technologies: ['React', 'Node.js', 'MongoDB'],
+    title: 'AI Trip Planner',
+    description: 'An AI-powered travel planner offering smart, personalized trip suggestions with a sleek, responsive UI',
+    technologies: ['HTML', 'CSS', 'React', 'JavaScript'],
     image: 'https://via.placeholder.com/400x300',
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates',
-    technologies: ['React', 'Firebase', 'Material-UI'],
+    title: 'AI Chatbot',
+    description: 'An AI chatbot using Python and Google Gemini API, enhancing user engagement by 40% through optimized multi-turn conversations and an intuitive UI.',
+    technologies: ['Python', 'Gemini API', 'NLP'],
     image: 'https://via.placeholder.com/400x300',
   },
   {
