@@ -60,7 +60,7 @@ const Home = () => {
               <span className="animate-pulse">|</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl">
-              I build exceptional digital experiences that make an impact.
+            From campus to code - my journey through CSE
             </p>
             <div className="flex gap-4 mt-8">
               <motion.button
