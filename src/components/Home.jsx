@@ -74,13 +74,6 @@ const Home = () => {
                 </svg>
                 Download CV
               </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-3 bg-purple-600 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
-              >
-                Video CV
-              </motion.button>
             </div>
           </motion.div>
 
